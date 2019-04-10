@@ -1,0 +1,32 @@
+<!--
+    ############################################################################################
+    #                           Commentaires d'explication du fichier XML                      #
+    #                             DEV effectué par RexT  le 10/04/2019                         #
+    ############################################################################################
+
+     Ui est la balise pour "interface utilisateur" 
+
+     xmlns="http://www.blizzard.com/wow/ui/" Défini namespace cela permet d'assurer que dans mon 
+            document la balise ui est bien défini par  Blizzard et pas par moi.
+
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Références vers des schémas W3C XML Schema
+            décrivant des namespace, son contenu est une suite de valeurs.
+-->
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.blizzard.com/wow/ui/http://wowprogramming.com/FrameXML/UI.xsd">
+    <!-- WoW connecte tout à un cadre, donc afin de créer quelque chose avec WoW va intéragir, nous créons un cadre -->
+    <Frame name="Filtinvent" parent="UIParent">
+        <!-- Les dimensions absolues sont des valeurs de pixels spécifiques qui définissent la taille d'un objet sera. -->
+        <Size x="384" y="512"/>
+        <!-- Anchors contient une liste d' éléments d'Anchor et constitue un élément fondamental de l'interface utilisateur permettant 
+        de définir la disposition des éléments de l'interface utilisateur  -->
+        <Anchors>
+            <!-- un élément constitutif fondamental de l'interface utilisateur permettant de définir la disposition des positions
+            pour les éléments d'interface utilisateur -->
+            <Anchor point="CENTER" relativePoint="CENTER" relativeTo="UIParent"/>
+
+        </Anchors>
+
+    </Frame>
+
+</Ui>
