@@ -1,0 +1,12 @@
+# La version d'interface utilisateur compatible pour ce module ( voir la dernière version de World of Warcraft )
+## Interface: 80100 # Penser à actualiser le chiffre de l'interface
+
+# Le titre de l'addon à afficher dans le jeu
+## Title: Filtinvent
+
+# La description de l'addon à afficher dans le jeu
+## Notes: Une aide pratique qui vous permet de filtrer votre inventaire
+
+# Les fichiers chargés au démarrage de l'addon
+Filtinvent.lua
+Filtinvent.xml
