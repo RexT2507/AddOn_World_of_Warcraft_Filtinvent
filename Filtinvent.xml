@@ -53,6 +53,26 @@ xsi:schemaLocation="http://www.blizzard.com/wow/ui/http://wowprogramming.com/Fra
 
             </Texture>
 
+            <Texture file="Interface\BankFrame\UI-BrankFrame-BotLeft">
+
+                <Anchors>
+
+                    <Anchor point="BOTTOMLEFT"/>
+
+                </Anchors>
+
+            </Texture>
+
+            <Texture file="Interface\BankFrame\UI-BrankFrame-BotRight">
+
+                <Anchors>
+                    
+                    <Anchor point="BOTTOMRIGHT"/>
+
+                </Anchors>
+
+            </Texture>
+
         </Layer>
 
     </Layers>
