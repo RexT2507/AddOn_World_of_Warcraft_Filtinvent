@@ -29,8 +29,12 @@ xsi:schemaLocation="http://www.blizzard.com/wow/ui/http://wowprogramming.com/Fra
 
     </Frame>
 
+    <!-- Le layers est un élément fondamental de l'interface utilisateur permettant de définir des éléments d'interface utilisateur 
+    visibles dans les cadres   -->
     <Layers>
 
+        <!-- Tout le placement d'objet dans World of Warcraft se fait à travers une série d'anchors qui attache un point sur une 
+        frame à un autre point sur une autre frame.  -->
         <Layer level="BORDER">
 
             <Texture file="Interface\BankFrame\UI-BankFrame-TopLeft">
