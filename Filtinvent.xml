@@ -81,4 +81,11 @@ xsi:schemaLocation="http://www.blizzard.com/wow/ui/http://wowprogramming.com/Fra
 
     </Layers>
 
+    <!-- Appel du script  -->
+    <Scripts>
+
+        <OnLoad function="Filtinvent_OnLoad"/>
+
+    </Scripts>
+
 </Ui>
